@@ -7,7 +7,6 @@ describe('Studio', () => {
     .and('have.text', 'Kitchen Sink')
     /* ==== End Cypress Studio ==== */
   })
-
   /* ==== Test Created with Cypress Studio ==== */
   it('Deve Logar com Sucesso', function() {
     /* ==== Generated with Cypress Studio ==== */

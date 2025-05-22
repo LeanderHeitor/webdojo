@@ -1,0 +1,44 @@
+{
+  "personal": {
+    "name": "Fernando Papito",
+    "email": "papotp@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "Individual",
+    "personType": "cpf",
+    "document": "93896613073",
+    "discoveryChannels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/1.pdf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit laborum.",
+    "techs": [
+      "Cypress",
+      "Selenium",
+      "Playwright",
+      "WebdriverIO",
+      "Robot Framework"
+    ],
+    "terms": true
+  },
+  "company": {
+    "name": "Fernando Papito",
+    "email": "papotp@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "In Company",
+    "personType": "cnpj",
+    "document": "07013964000113",
+    "discoveryChannels": [
+      "LinkedIn"
+    ],
+    "file": "./cypress/fixtures/1.pdf",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit laborum.",
+    "techs": [
+      "Cypress"
+    ],
+    "terms": true
+  }
+}

@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-real-events'
-
+import './actions/consultancy.actions'
 Cypress.Commands.add('start', () => {
     cy.viewport(1440, 900)
     cy.visit('http://localhost:3000/')
@@ -43,4 +43,10 @@ Cypress.Commands.add('goTo', (buttonName, pageTitle) => {
 
         cy.contains('h1', pageTitle)
         .should('be.visible')
+})
+
+//Helpers
+Cypress.Commands.add('login', ()=>{
+    cy.start()
+    cy.submitLoginForm("papito@webdojo.com", "katana123")
 })
